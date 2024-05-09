@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
@@ -25,11 +26,12 @@
     android:layout_x="175dp"
     android:layout_y="100dp"
     android:inputType="number"
+    android:hint="Enter Roll Number"
     android:textSize="20sp" />
 
 
 
-    <TextView
+<TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_x="20dp"
@@ -45,9 +47,10 @@
     android:layout_x="175dp"
     android:layout_y="150dp"
     android:inputType="text"
+    android:hint="Enter Name"
     android:textSize="20sp" />
 
-    <TextView
+<TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_x="20dp"
@@ -62,6 +65,7 @@
     android:layout_x="175dp"
     android:layout_y="200dp"
     android:inputType="number"
+    android:hint="Number"
     android:textSize="20sp" />
 
     <Button
@@ -71,8 +75,7 @@
     android:layout_x="25dp"
     android:layout_y="300dp"
     android:text="insert"
-    android:textSize="30dp"
-        />
+    android:textSize="30dp" />
 
 
     <Button
@@ -113,5 +116,25 @@
     android:layout_y="500dp"
     android:text="View All"
     android:textSize="30dp" />
+
+<!--    <ImageButton-->
+<!--        android:layout_width="107dp"-->
+<!--        android:layout_height="62dp"-->
+<!--        android:layout_x="50dp"-->
+<!--        android:layout_y="600dp"-->
+<!--        android:contentDescription="Add a description here" />-->
+
+
+
+<!--    <vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:width="24dp"-->
+<!--        android:height="24dp"-->
+<!--        android:viewportWidth="960"-->
+<!--        android:viewportHeight="960"-->
+<!--        android:tint="?attr/colorControlNormal">-->
+<!--        <path-->
+<!--            android:fillColor="@android:color/white"-->
+<!--            android:pathData="M280,840Q247,840 223.5,816.5Q200,793 200,760L200,240L160,240L160,160L360,160L360,120L600,120L600,160L800,160L800,240L760,240L760,760Q760,793 736.5,816.5Q713,840 680,840L280,840ZM680,240L280,240L280,760Q280,760 280,760Q280,760 280,760L680,760Q680,760 680,760Q680,760 680,760L680,240ZM360,680L440,680L440,320L360,320L360,680ZM520,680L600,680L600,320L520,320L520,680ZM280,240L280,240L280,760Q280,760 280,760Q280,760 280,760L280,760Q280,760 280,760Q280,760 280,760L280,240Z"/>-->
+<!--    </vector>-->
 
     </AbsoluteLayout>
